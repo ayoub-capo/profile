@@ -48,6 +48,13 @@ h1{
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 450px){
+ .centry{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+}
 
 .title{
   position: relative;
